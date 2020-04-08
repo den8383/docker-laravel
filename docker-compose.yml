@@ -1,0 +1,11 @@
+version: "3"
+services:
+  php:
+    build:
+      context: ./docker/php/
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "8000:8000"
+    working_dir: /usr/src/app
+    tty: true
