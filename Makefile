@@ -1,3 +1,4 @@
-serve:
-	php artisan serve --host 0.0.0.0
-
+create-project:
+	composer create-project laravel/laravel ./
+create_tables:
+	php artisan make:migration create_tablename_table
