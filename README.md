@@ -1,3 +1,7 @@
+#make .env
+```
+cp .env.example .env
+```
 #change in .env
 ```
 DB_CONNECTION=mysql
