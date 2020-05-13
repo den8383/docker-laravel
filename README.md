@@ -8,3 +8,9 @@ DB_USERNAME=docker
 DB_PASSWORD=docker
 
 ```
+
+#composer 
+```
+$ composer install
+```
+
