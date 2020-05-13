@@ -18,3 +18,7 @@ DB_PASSWORD=docker
 $ composer install
 ```
 
+#keygenerate
+```
+$ php artisan key:generate
+```
