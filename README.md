@@ -1,7 +1,9 @@
-#make .env
+#create-project
 ```
-cp .env.example .env
+$ docker exec -it php bash
+(docker) $composer create-project laravel/laravel ./
 ```
+
 #change in .env
 ```
 DB_CONNECTION=mysql
@@ -13,12 +15,3 @@ DB_PASSWORD=docker
 
 ```
 
-#composer 
-```
-$ composer install
-```
-
-#keygenerate
-```
-$ php artisan key:generate
-```
