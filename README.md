@@ -2,7 +2,7 @@
 
 ```
 $ docker exec -it php bash
-(docker) $ sudo composer create-project laravel/laravel ./
+(docker) $ composer create-project laravel/laravel ./
 ```
 
 #change in .env
