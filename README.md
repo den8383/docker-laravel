@@ -1,6 +1,7 @@
 #create-project
 
 ```
+$ mkdir project
 $ docker exec -it php bash
 (docker) $ composer create-project laravel/laravel ./
 ```
