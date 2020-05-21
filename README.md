@@ -1,10 +1,12 @@
 #create-project
+
 ```
 $ docker exec -it php bash
 (docker) $composer create-project laravel/laravel ./
 ```
 
 #change in .env
+
 ```
 DB_CONNECTION=mysql
 DB_HOST=db-host
