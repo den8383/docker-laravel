@@ -1,12 +1,13 @@
 #create-project
 
 ```
-$ mkdir project
-$ docker exec -it php bash
+docker-laravel$ mkdir project
+docker-laravel$ docker-compose up --build
+docker-laravel$ docker exec -it php bash
 (docker) $ composer create-project laravel/laravel ./
 ```
 
-#change in .env
+#change in project/.env
 
 ```
 DB_CONNECTION=mysql
